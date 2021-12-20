@@ -1,0 +1,46 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin: 5px 0px 20px;
+}
+
+.table__cell {
+    border: 2px solid hsl(247, 89%, 17%);
+    padding: 10px;
+}
+
+.table__cell:hover {
+    background-color: rgb(221, 215, 218);
+}
+
+.table__header--column {
+    background-color: #c58888;
+}
+
+.table__header--row {
+    background-color: rgb(189 103 103);
+}
+
+.table__link {
+    color: hsl(247, 89%, 17%);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.table__link:visited {
+    color: rgb(94, 85, 223);
+}
+
+.table__link:hover {
+    background-color: hsl(244, 61%, 69%);
+    outline: none;
+}
+
+.table__link:active {
+    background-color: rgb(35, 37, 156);
+}

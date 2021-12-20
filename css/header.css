@@ -1,0 +1,16 @@
+.header {
+    color: hsl(247, 89%, 17%);
+    border-color: hsl(247, 89%, 17%);
+    border-style: solid;
+    border-width: 3px;
+    outline: 2px solid white;
+    text-shadow: 2px 2px rgb(146, 144, 144);
+    box-shadow: 10px 13px 22px 0px rgba(0, 0, 0, 0.82);
+    background-color: #ceb6b6;
+}
+
+.header__photo {
+    width: 20em;
+    border: 2px solid hsl(247, 89%, 17%);
+    box-shadow: 11px 10px 22px 6px rgba(0, 0, 0, 0.82);
+}

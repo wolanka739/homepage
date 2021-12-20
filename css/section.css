@@ -1,0 +1,9 @@
+.section {
+    font-size: 20px;
+}
+
+.section__header {
+    border: 2px solid hsl(247, 89%, 17%);
+    box-shadow: 10px 13px 22px 0px rgba(0, 0, 0, 0.82);
+    background-color: #d6a4ca47;
+}

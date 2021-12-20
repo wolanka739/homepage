@@ -1,0 +1,5 @@
+.button {
+    font-size: 20px;
+    border: 2px solid hsl(247, 89%, 17%);
+    background-color: grey;
+}

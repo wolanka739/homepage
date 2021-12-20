@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body js-body">
+    <header>
+        <h1 class="header">Karolina Wolan</h1>
+        <p>
+            <img class="header__photo" src="images/Karolina.jpg" alt="Karolina Wolan">
+        </p>
+        <p>
+            <button class="button js-button">Włącz <span class="button__themeName js-button__themeName">ciemny</span>
+                motyw</button>
+        </p>
+        <nav>
+            <ul class="navigation__list">
+                <li>
+                    <a class="navigation__link" href="#o-mnie">O mnie</a>
+                </li>
+                <li>
+                    <a class="navigation__link" href="#moj-cel">Mój cel</a>
+                </li>
+                <li>
+                    <a class="navigation__link" href="#moje-ulubione-filmy">Moje ulubione filmy</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <h2 class="section__header" id="o-mnie">O MNIE</h2>
+            <p>Mam na imię Karolina. Mam 24 lata. Ukończyłam Technikum Ekonomiczne w zawodzie technik
+                ekonomista.
+                Od tego czasu pracowałam na różnych stanowiskach, nie związanych z moim zawodem.
+                Obecnie pracuję za granicą na magazynie. Nie planuję tutaj zostać na długo. Jestem tutaj po to,
+                by zarobić na budowę domu, o której marzę od dziecka. </p>
+        </section>
+        <section class="section">
+            <h2 class="section__header" id="moj-cel">MÓJ CEL</h2>
+            <p> <em>Po powrocie do Polski, nie zamierzam pracować gdziekolwiek!</em> Taka myśl ciągle
+                mnie
+                nachodziła.
+                Gdy zobaczyłam reklamę Youcode, postanowiłam zrobić coś ze swoim życiem. Po wielu, wielu latach wydaje
+                mi
+                się,
+                że w końcu wiem co chcę robić w życiu. Rodzina zawsze powtarzała, że powinnam pójść na studia.
+                Ale jakie??? Nigdy tego nie wiedziałam. Za to wiedziałam, że studia nie są dla mnie. Kurs na Frontend
+                Developera
+                otworzył mi oczy. Podoba mi się to i tym chciałabym zajmować się w przyszłości. <strong>Chcę być kimś
+                    ważnym.</strong>
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section__header" id="moje-ulubione-filmy">MOJE ULUBIONE FILMY</h2>
+            <div class="tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Niezapomniane filmy</caption>
+                    <tr>
+                        <th class="table__cell table__header--column" scope="col">Tytuł filmu</th>
+                        <th class="table__cell table__header--column" scope="col">Główny aktor</th>
+                        <th class="table__cell table__header--column" scope="col">Premiera</th>
+                        <th class="table__cell table__header--column" scope="col">Gatunek</th>
+                        <th class="table__cell table__header--column" scope="col">Jeśli masz ochotę przeczytaj opis filmu
+                            (link
+                            otwiera się w nowej
+                            karcie)</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__header--row" scope="row">Dla ciebie wszystko</th>
+                        <td class="table__cell">Michelle Monaghan</td>
+                        <td class="table__cell">2014</td>
+                        <td class="table__cell">Melodramat</td>
+                        <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank"
+                                href="https://www.filmweb.pl/film/Dla+ciebie+wszystko-2014-629797">Opis filmu "Dla
+                                ciebie
+                                wszystko"</a></td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__header--row" scope="row">Bezpieczna przystań</th>
+                        <td class="table__cell">Julianne Hough</td>
+                        <td class="table__cell">2013</td>
+                        <td class="table__cell">Melodramat</td>
+                        <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank"
+                                href="https://www.filmweb.pl/film/Bezpieczna+przysta%C5%84-2013-651830">Opis filmu
+                                "Bezpieczna
+                                przystań"</a></td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__header--row" scope="row">To tylko chemia</th>
+                        <td class="table__cell">Ana Fernández</td>
+                        <td class="table__cell">2015</td>
+                        <td class="table__cell">Romans</td>
+                        <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank"
+                                href="https://www.filmweb.pl/film/To+tylko+chemia-2015-688835">Opis filmu "To tylko
+                                chemia"</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__header--row" scope="row">Wybuchowa para</th>
+                        <td class="table__cell">Cameron Diaz</td>
+                        <td class="table__cell">2010</td>
+                        <td class="table__cell">Komedia/Akcja</td>
+                        <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank"
+                                href="https://www.filmweb.pl/film/Wybuchowa+para-2010-502282">Opis filmu "Wybuchowa
+                                Para"</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        Copyright by Karolina Wolan
+    </footer>
+</body>
+
+</html>
