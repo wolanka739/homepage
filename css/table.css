@@ -18,11 +18,11 @@
     background-color: rgb(221, 215, 218);
 }
 
-.table__header--column {
+.table__cell--columnHeader {
     background-color: #c58888;
 }
 
-.table__header--row {
+.table__cell--rowHeader {
     background-color: rgb(189 103 103);
 }
 
